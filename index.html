@@ -12,6 +12,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Where Champions Come From — Milano-Cortina 2026">
 <meta name="twitter:description" content="Every Olympic medalist mapped to their hometown. An interactive story by HYPERLOCO.">
+<meta name="author" content="HYPERLOCO LLC">
+<meta name="copyright" content="© 2026 HYPERLOCO LLC. All rights reserved.">
 
 <!-- Mapbox GL -->
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
@@ -1420,5 +1422,13 @@ function prevStory() { goToStory((currentStory - 1 + STORIES.length) % STORIES.l
 
 initStories();
 </script>
+
+<!-- Copyright Footer -->
+<div id="copyright" style="
+  position:fixed; bottom:8px; left:50%; transform:translateX(-50%);
+  font-family:'Space Grotesk',sans-serif; font-size:11px; color:rgba(255,255,255,0.4);
+  letter-spacing:0.5px; pointer-events:none; z-index:5;
+">© 2026 HYPERLOCO LLC · hyperlocollc@gmail.com</div>
+
 </body>
 </html>
